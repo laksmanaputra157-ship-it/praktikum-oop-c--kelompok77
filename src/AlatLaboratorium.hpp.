@@ -14,11 +14,15 @@ public:
     // Constructor
     AlatLaboratorium(string nama, string kategori, int jumlah);
 
+    // Getter
+    string getNama() const;
+    string getKategori() const;
+    int getJumlah() const;
+
     // Method
-    void tampilkanInfo();
+    void tampilkanInfo() const;
     void tambahJumlah(int n);
     void kurangiJumlah(int n);
 };
 
 #endif
-
